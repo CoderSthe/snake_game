@@ -33,8 +33,6 @@ snake.goto(0,0)
 while True:
     snake.forward(1)
     snake.speed(1)
-    if snake.onclick("up"):
-        snake.left(90)
 
 turtle.done()
 
